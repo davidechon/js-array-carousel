@@ -19,4 +19,13 @@
 // Aggiungere il ciclo infinito del carosello. Ovvero se la miniatura attiva è la prima e l'utente clicca la freccia verso l'alto, la miniatura che deve attivarsi sarà l'ultima e viceversa per l'ultima miniatura se l'utente clicca la freccia verso il basso.
 ////////////////////////////////////////////////////////
 
-// Flowchart
+// Flowchart Milestone 1
+//A[INIZIO]
+//B[creo la riga che conterrà due colonne col-left e col-right]
+//C[in col-left assegno l'immgine principale]
+//D[in col-right assegno la colonna con le thumbnails]
+//E[inserisco il titolo del luogo]
+//F[inserisco il testo del luogo]
+//G[inerisco le frecce in dello scroll]
+//H[inserisco la classe active]
+//I[inserisco l'overlay alle thumbnails non attive]
