@@ -12,45 +12,40 @@
 
 /* General */
 .container{
-  height: 100vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  /* border: 1px solid violet; */
 }
-#slider{
- 
-}
+
 .row{
-  
- 
-}
-.container-items{
+  height: 300px;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: center;
+  align-items: center;
+  row-gap: 0;
 
-  height: 300px;
-  border: 1px solid yellow;
+  overflow: hidden;
 }
-.item{
-  border: 1px solid green;
-}
-.item img{
+.primary > img{
   width: 700px;
+  height: 305px;
+  object-fit: cover;
+}
+.thumb-container{
   height: 300px;
+  display: flex;
+  flex-flow: column wrap;
+  column-gap: 0;
+  /* border: 1px solid blue; */
+}
+.secondary > img{
+  display: block;
+  width: 130px;
+  height: 60px;
   object-fit: cover;
 }
 
-.item-thumb{
-  display: flex;
-  flex-flow: column nowrap;
-  order: 5;
-  /* width: 130px;
-  height: 60px;
-  overflow: hidden; */
-  border: 1px solid blue;
-}
-.item-thumb img{
-  
-  width: 130px;
-  height: 60px;
-  overflow: hidden;
-  border: 1px solid pink;
-}
+.active{}
+.overlay{}
