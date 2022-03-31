@@ -20,32 +20,42 @@
 }
 
 .row{
-  height: 300px;
+  width: 834px;
+  height: 350px;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
   row-gap: 0;
-
   overflow: hidden;
 }
 .primary > img{
   width: 700px;
-  height: 305px;
+  height: auto;
   object-fit: cover;
 }
 .thumb-container{
-  height: 300px;
+  height: auto;
   display: flex;
   flex-flow: column wrap;
+  align-items: stretch;
   column-gap: 0;
-  /* border: 1px solid blue; */
 }
-.secondary > img{
+.secondary>img{
   display: block;
-  width: 130px;
-  height: 60px;
+  width: 100%;
+  height: 70px;
   object-fit: cover;
 }
 
-.active{}
-.overlay{}
+.active{
+  opacity: 1;
+  border: 1px solid #ffffff;
+}
+.overlay{
+  opacity: 0.5;
+}
+.overlay:hover{
+  opacity: 1;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+}
